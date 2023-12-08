@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+/* styles/globals.css */
+.search-bar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 100;
+}
+
+
+
+.search-bar {
+  width: 100%;
+  padding: 15px; /* Adjust padding for better visibility and touch-friendly */
+  font-size: 20px; /* Increase the font size */
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
+/* styles/globals.css */
+.video-card {
+  display: flex;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.left-part {
+  flex: 0 0 40%; /* Adjust the width as needed */
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+}
+
+.right-part {
+  flex: 1;
+  padding: 10px;
+}
